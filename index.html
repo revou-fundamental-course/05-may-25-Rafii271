@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container">
+        <h2 class="logo">TravelAgent</h2>
+        <ul class="nav-links">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#packages">Our Package</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Banner -->
+<section class="banner" id="banner">
+    <div class="slider">
+        <img src="images/pantai.jpg" class="slide active" alt="Pantai">
+        <img src="images/paris.jpg" class="slide" alt="Paris">
+        <img src="images/japan.jpeg" class="slide" alt="Japan">
+    </div>
+    <h1 class="banner-title">Explore the World with Us!</h1>
+</section>
+
+
+<!-- Packages -->
+<<section class="packages" id="packages">
+    <div class="container">
+        <h2>Our Travel Packages</h2>
+        <div class="package-list">
+            <div class="package-item">
+                <img src="images/bali.jpg" alt="Bali Adventure">
+                <h3>Bali Adventure</h3>
+                <p>Experience the beautiful culture and nature of Bali.</p>
+            </div>
+            <div class="package-item">
+                <img src="images/paris.jpg" alt="Paris Romance">
+                <h3>Paris Romance</h3>
+                <p>Feel the romance and elegance of Paris.</p>
+            </div>
+            <div class="package-item">
+                <img src="images/japan.jpeg" alt="Japan Discovery">
+                <h3>Japan Discovery</h3>
+                <p>Explore the traditions and futuristic cities of Japan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="destination" placeholder="Desired Destination" required>
+            <button type="submit">Send Inquiry</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 TravelAgent. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
